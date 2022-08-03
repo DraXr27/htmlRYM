@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+    <title>Rick & Morty - Characters</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <div style="display: flex; justify-content: space-between;">
+        <div style="padding: 0.6rem;">
+            <button style="border-radius: 3px; border-color: transparent; background-color: white;" id="chars-btn">
+                <a href="index.html" class="button" style="display: inline-block; text-decoration: none; color: black;">
+                    Characters
+                </a>
+            </button>
+            <button style="border-radius: 3px; border-color: transparent; background-color: white;" id="episodes-btn">
+                <a href="indexEps.html" class="button" style="display: inline-block; text-decoration: none; color: black;">
+                    Episodes
+                </a>
+            </button>
+        </div>
+        <div style="padding: 0.6rem;">
+            <input style="border-radius: 3px; border-color: transparent; background-color: white;" type="text" name="search-input" id="search-input" placeholder="Search By Name...">
+            <button style="border-radius: 3px; border-color: transparent; background-color: white;" id="search-btn">Search</button>
+        </div>
+    </div>
+
+    <div id="char-container">
+
+    </div>
+
+    <div id="page-skip-container" style="display: flex; justify-content: center; gap: 20px; padding-top: 3rem;">
+        <button style="border-radius: 3px; border-color: transparent; background-color: white; visibility: visible;" id="prev-button">Back</button>
+        <p style="color: white;" id="curr-page-text">I'm A Placeholder Text hehehehheh</p>
+        <button style="border-radius: 3px; border-color: transparent; background-color: white; visibility: visible;" id="next-button">Next</button>
+    </div>
+    
+</body>
+</html>
